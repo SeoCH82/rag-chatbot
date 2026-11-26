@@ -320,8 +320,6 @@ def main() -> None:
     configure_local_cache()
 
     st.title("🔎 개인 RAG 챗봇")
-    if PERSONAL_ACADEMIC_RECORDS and not PUBLIC_SERVER_MODE:
-        st.caption("원본 학적·성적 자료 사용 중")
 
     if not required_files_exist():
         st.error("모델 파일 또는 FAISS 인덱스가 없습니다.")
