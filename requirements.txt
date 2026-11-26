@@ -1,0 +1,16 @@
+streamlit==1.64.0
+langchain==0.3.30
+langchain-community==0.3.31
+langchain-ollama==0.3.10
+langchain-huggingface==0.3.1
+langchain-text-splitters==0.3.11
+pypdf==6.19.0
+docx2txt==0.9
+unstructured[pptx]==0.27.6
+python-pptx==1.0.2
+tiktoken==0.14.0
+sentence-transformers==5.7.0
+faiss-cpu==1.15.1
+ollama==0.6.2
+huggingface-hub==1.31.0
+pytest>=8,<10

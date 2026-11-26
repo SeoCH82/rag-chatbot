@@ -1,0 +1,11 @@
+FROM ./Llama-3-Open-Ko-8B-ljh-gguf-unsloth.Q8_0.gguf
+
+TEMPLATE """### Instruction:
+{{ .Prompt }}
+
+### Response:
+"""
+
+PARAMETER temperature 0.2
+PARAMETER top_p 0.9
+PARAMETER num_ctx 2048
